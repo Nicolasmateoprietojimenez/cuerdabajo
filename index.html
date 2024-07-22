@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Cuerdabajo</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<section class="background-video">
+    <video autoplay muted loop id="bg-video">
+        <source src="img/backgroundvideo.mp4" type="video/mp4">
+        Tu navegador no soporta la etiqueta de video.
+    </video>
+    <div class="overlay"></div>
+    <nav class="main-nav fade-in">
+        <div>
+            <a href="#inicio">Inicio</a>
+            <a href="#servicios">Servicios</a>
+            <a href="#galeria-flex">Galería</a>
+            <a href="#contacto">Contacto</a>
+        </div>
+    </nav>
+    <nav class="social-nav fade-in" id="social-nav">
+        <a href="https://www.facebook.com/profile.php?id=100087781704883" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/agrupacion_cuerdabajo/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://wa.me/3026563790" target="_blank"><i class="fab fa-whatsapp"></i></a>
+    </nav>
+
+    <div class="hero-text fade-in">
+        <h1>CUERDABAJO</h1>
+        <p>Agrupación musical para toda clase de eventos</p>
+    </div>
+</section>
+
+<section id="servicios" class="services">
+    <h2 id="title-services">Nuestros servicios</h2>
+    <div class="swiper mySwiper" id="swiper">
+        <div class="swiper-wrapper">
+            <!-- Tarjeta 1 -->
+            <div class="swiper-slide">
+                <div class="service-card">
+                    <h3 class="service-title">Parranda Carranguera</h3>
+                    <div class="service-content">
+                        <div class="service-info">
+                            <p class="service-price">$40,000</p>
+                            <p class="service-description">
+                                Show de parranda carranguera 20 min, guitarra, requinto, bajo y percusiones para pasarla bueno!
+                            </p>
+                            <a href="https://wa.me/numero_de_whatsapp" class="service-button" target="_blank">Contratar!</a>
+                        </div>
+                        <div class="service-video">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/OIymNUeuJIA?si=VdwX5mvjBAJSU80B" 
+                                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Tarjeta 2 -->
+            <div class="swiper-slide">
+                <div class="service-card">
+                    <h3 class="service-title">Parranda Carranguera</h3>
+                    <div class="service-content">
+                        <div class="service-info">
+                            <p class="service-price">$40,000</p>
+                            <p class="service-description">
+                                Show de parranda carranguera 20 min, guitarra, requinto, bajo y percusiones para pasarla bueno!
+                            </p>
+                            <a href="https://wa.me/numero_de_whatsapp" class="service-button" target="_blank">Contratar!</a>
+                        </div>
+                        <div class="service-video">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/OIymNUeuJIA?si=VdwX5mvjBAJSU80B" 
+                                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+</section>
+
+<section id="galeria-flex" class="galery">
+    <h2>Galería</h2>
+
+    <div class="galerias">
+        <div class="flex-galery">
+            <img src="img/galeria/img (1).webp" alt="">
+            <img src="img/galeria/img (2).webp" alt="">
+            <img src="img/galeria/img (3).webp" alt="">
+            <img src="img/galeria/img (4).webp" alt="">
+            <img src="img/galeria/img (5).webp" alt="">
+        </div>
+    
+        <div class="swiper myGallerySwiper" id="gallery-swiper">
+            <div class="swiper-wrapper" id="gallery-wrapper">
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </div>
+    
+</section>
+
+<section class="contact-section" id="contacto">
+    <h2>Contacto</h2>
+    <div class="map-background">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2669.1232829215473!2d-74.22394864660399!3d4.605367465127135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f75897e2df0cf%3A0x52b77e3f92147fb2!2sConjunto%20Residencial%20Pomelo!5e0!3m2!1ses-419!2sco!4v1721585400917!5m2!1ses-419!2sco" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="map-overlay"></div>
+    </div>
+    <form class="contact-form">
+        <h3>Dejanos un mensaje</h3>
+        <input type="email" id="email" placeholder="Correo electrónico" required>
+        <textarea id="message" placeholder="Mensaje" required></textarea>
+        <button type="submit">Enviar</button>
+    </form>
+</section>
+
+
+<footer class="footer">
+    <div class="footer-container">
+        <div class="footer-about">
+            <h3>Sobre Cuerdabajo</h3>
+            <p>Somos una agrupación musical especializada en eventos y celebraciones, ofreciendo entretenimiento de alta calidad con una variedad de servicios musicales.</p>
+        </div>
+        <div class="footer-contact">
+            <h3>Contacto</h3>
+            <p>Teléfono: <a href="tel:+57302653790">+57 3026563790</a></p>
+            <p>Email: <a href="mailto:grupocuerdabajo@gmail.com">grupocuerdabajo@gmail.com</a></p>
+        </div>
+        <div class="footer-social">
+            <h3>Síguenos</h3>
+            <a href="https://www.facebook.com/profile.php?id=100087781704883" target="_blank" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/agrupacion_cuerdabajo/" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+            <a href="https://wa.me/3026563790" target="_blank" class="social-icon"><i class="fab fa-whatsapp"></i></a>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2024 Cuerdabajo. Todos los derechos reservados.</p>
+    </div>
+</footer>
+
+<script src="js/scripts.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        // Inicializar el swiper de servicios
+        var serviceSwiper = new Swiper('.mySwiper', {
+            loop: true,
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+
+        // Inicializar el swiper de galería
+        var gallerySwiper = new Swiper('.myGallerySwiper', {
+            loop: true,
+            navigation: {
+                nextEl: '#gallery-swiper .swiper-button-next',
+                prevEl: '#gallery-swiper .swiper-button-prev',
+            },
+        });
+
+        // Cargar imágenes dinámicamente en el swiper de galería
+        var galleryWrapper = document.getElementById('gallery-wrapper');
+var imageCount = 16;
+
+for (var i = imageCount; i >= 1; i--) {
+    var slide = document.createElement('div');
+    slide.classList.add('swiper-slide');
+
+    var img = document.createElement('img');
+    img.src = 'img/galeria/img (' + i + ').webp';
+    img.alt = 'Galería imagen ' + i;
+
+    slide.appendChild(img);
+    galleryWrapper.appendChild(slide);
+}
+
+    });
+</script>
+
+</body>
+</html>
