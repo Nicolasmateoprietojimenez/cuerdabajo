@@ -19,4 +19,14 @@ document.addEventListener('scroll', function() {
         swiper.classList.remove('fade-swiper');
         titleservices.classList.remove('top-title');
     }
+
+    const footerSectionTop = document.querySelector('.footer').getBoundingClientRect().top;
+    
+    window.addEventListener('scroll', function() {
+        if (footerSectionTop <= 600) {
+            socialNav.classList.add('out-social');
+        } else {
+            socialNav.classList.remove('out-social');
+        }
+    });
 });
